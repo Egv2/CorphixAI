@@ -1,3 +1,7 @@
+html {
+  scroll-behavior: smooth;
+}
+
 @font-face {
   font-family: "colfax-light";
   src: url("../fonts/colfax-light.woff") format("woff"),
