@@ -2054,7 +2054,9 @@ video {
 }
 
 .table th {
-  background-color: #1f2739;
+  background-color: #35373cb0;
+  text-align: center;
+  justify-content: center;
 }
 
 .table td:first-child {
