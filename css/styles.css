@@ -2107,3 +2107,64 @@ video {
   margin-right: 10px;
   padding: 10px 20px;
 }
+
+@media only screen and (max-width: 576px) {
+  video {
+    width: 308px;
+    margin-top: 84px;
+  }
+}
+
+@media only screen and (max-width: 768px) {
+  video {
+    width: 187px;
+    margin-top: 70px;
+  }
+}
+
+@media only screen and (min-width: 992px) {
+  video {
+    width: 37%;
+    margin-top: 210px;
+  }
+}
+
+@media only screen and (min-width: 1024px) {
+  video {
+    width: 18%;
+    margin-top: 210px;
+  }
+}
+
+@media only screen and (max-width: 375px) {
+  video {
+    width: 79%;
+    padding-top: 150px;
+  }
+}
+
+@media only screen and (max-width: 375px) {
+  #dapp {
+    margin-top: 173px;
+  }
+}
+
+@media only screen and (min-width: 1921px) {
+  video {
+    width: 14%;
+    padding-top: 36px;
+  }
+}
+
+@media only screen and (min-width: 1145px) and (max-width: 1923) {
+  video {
+    width: 16%;
+    padding-top: 36px;
+  }
+}
+
+@media (max-width: 480px) {
+  .word-shift b {
+    font-size: 19px; /* Daha küçük ekranlar için font boyutu */
+  }
+}
